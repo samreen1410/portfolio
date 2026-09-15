@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samreen Kaur — Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<!-- NAV -->
+<nav id="nav" class="nav">
+    <div class="nav-mark">SK</div>
+    <ul class="nav-links">
+        <li><a href="#about" data-nav="about">About</a></li>
+        <li><a href="#experience" data-nav="experience">Experience</a></li>
+        <li><a href="#projects" data-nav="projects">Projects</a></li>
+        <li><a href="#skills" data-nav="skills">Skills</a></li>
+        <li><a href="#contact" data-nav="contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+    <div class="hero-content">
+        <h1 class="hero-name">Samreen Kaur</h1>
+        <p class="hero-role">Software Development · QA Automation · Data Analytics</p>
+        <p class="hero-desc">Fourth-year Science student at The University of British Columbia building and validating systems — from production testing at CIBC to machine learning on real-world data.</p>
+        <div class="hero-traits">
+            <span>Curious</span>
+            <span>Analytical</span>
+            <span>Determined</span>
+        </div>
+        <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">See my work</a>
+            <a href="resume.pdf" class="btn btn-primary" download>Resume</a>
+            <a href="#contact" class="btn btn-primary">Get in touch</a>
+        </div>
+    </div>
+    <div class="scroll-hint" id="scroll-hint">
+        <span>scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+    <div class="section-inner">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+            <p class="about-text">
+                I'm a fourth-year Science student at the University of British Columbia with hands-on
+                experience across software development, application testing, API validation, database
+                analysis, and data analytics. I've spent the last few years moving between production
+                validation at a bank, machine learning on open data, and statistical modeling in R —
+                and I like the seams between those worlds the most: where a data pipeline has to hold up
+                under real testing rigor, or where a regression suite has to reason about actual business logic.
+            </p>
+            <div class="about-facts">
+                <div class="fact">
+                    <span class="fact-label">Education</span>
+                    <span class="fact-value">B.Sc., University of British Columbia<br>Expected Dec 2026</span>
+                </div>
+                <div class="fact">
+                    <span class="fact-label">Certifications</span>
+                    <span class="fact-value">IBM Data Science — Advanced Python<br>HTML, CSS &amp; JS for Web Developers — Johns Hopkins</span>
+                </div>
+                <div class="fact">
+                    <span class="fact-label">Based in</span>
+                    <span class="fact-value">Vancouver, BC</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section" id="experience">
+    <div class="section-inner">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-meta">
+                    <span class="timeline-date">May 2026 – Aug 2026</span>
+                    <span class="timeline-place">Toronto, ON</span>
+                </div>
+                <div class="timeline-body">
+                    <h3>Software / Application Developer Co-op</h3>
+                    <p class="timeline-org">CIBC</p>
+                    <ul>
+                        <li>Performed production and system validation for Private Wealth applications, reconciling API/XML responses and account-level totals across DIT and SIT testing cycles.</li>
+                        <li>Executed 20+ batch testing scenarios across environments using Git, Azure, OpenShift, and GitHub Actions.</li>
+                        <li>Debugged Java-based automated test scripts and executed API regression tests during an ESB modernization SIT certification cycle.</li>
+                        <li>Wrote and executed Oracle SQL queries to verify backend database updates and reconcile application results.</li>
+                        <li>Tracked defects and test scenarios in Jira and documented workflows in Confluence for testing traceability.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-meta">
+                    <span class="timeline-date">May 2023 – Aug 2023</span>
+                    <span class="timeline-place">Vancouver, BC</span>
+                </div>
+                <div class="timeline-body">
+                    <h3>Data Analyst</h3>
+                    <p class="timeline-org">Data Science UBC</p>
+                    <ul>
+                        <li>Collected and analyzed data from SQL databases to support a sustainable campus project.</li>
+                        <li>Used Python and R for data processing, analysis, and analytical design.</li>
+                        <li>Collaborated with a research team to investigate and communicate data-driven findings.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item timeline-item--minor">
+                <div class="timeline-meta">
+                    <span class="timeline-date">2022 – 2024</span>
+                    <span class="timeline-place">Vancouver, BC</span>
+                </div>
+                <div class="timeline-body">
+                    <h3>Additional Experience</h3>
+                    <ul class="inline-list">
+                        <li>Tutor, Coding &amp; Mathematics — Jan 2023 to Aug 2023</li>
+                        <li>Orientation Leader, Science UBC — Aug 2023 to Oct 2023</li>
+                        <li>Customer Service Associate, Save On Foods — Jul 2023 to Dec 2024</li>
+                        <li>Associate Leader, Science Undergraduate Society UBC — Oct 2022</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
+    <div class="section-inner">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+
+            <article class="project">
+                <div class="project-cover project-cover--exoplanet" aria-hidden="true">
+                    <img src="project-exoplanet.jpg" alt="" loading="lazy">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <span class="project-tag">Jan 2026 – Apr 2026</span>
+                        <a href="#" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+                    </div>
+                    <h3>Exoplanet Transit Signal Classification</h3>
+                    <p>Built and compared five machine learning models to classify exoplanet transit signals from NASA TESS data, addressing severe class imbalance with precision, recall, and F1-score analysis rather than relying on accuracy alone. Tuned a Random Forest via grid search to reach 93.9% accuracy and 0.95 AUC, then extended the approach to five-class classification and identified transit depth, orbital period, and duration as the most predictive features.</p>
+                    <div class="project-stack"><span>Python</span><span>scikit-learn</span><span>Random Forest</span></div>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="project-cover project-cover--viz" aria-hidden="true">
+                    <img src="project-viz.jpg" alt="" loading="lazy">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <span class="project-tag">Sept 2025 – Dec 2025</span>
+                        <a href="#" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+                    </div>
+                    <h3>Interactive Data Visualization Website</h3>
+                    <p>Analyzed demographic patterns in billionaire wealth accumulation across a large multi-source dataset, with linked, parameterized visualizations — scatterplots, heatmaps, density and violin plots — built in Altair.</p>
+                    <div class="project-stack"><span>Python</span><span>Altair</span><span>Data Viz</span></div>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="project-cover project-cover--traffic" aria-hidden="true">
+                    <img src="project-traffic.jpg" alt="" loading="lazy">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <span class="project-tag">May 2025 – Aug 2025</span>
+                        <a href="#" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+                    </div>
+                    <h3>Traffic Accident Severity Model</h3>
+                    <p>Analyzed 10 years of open-source traffic accident data with Apache Spark and trained a classifier for accident severity, beating baseline F1 by 22%. Deployed with a live dashboard on Google Cloud for scenario testing.</p>
+                    <div class="project-stack"><span>Spark</span><span>ML</span><span>GCP</span></div>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="project-cover project-cover--cars" aria-hidden="true">
+                    <img src="project-cars.jpg" alt="" loading="lazy">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <span class="project-tag">Sept 2024 – Jan 2025</span>
+                        <a href="#" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+                    </div>
+                    <h3>Used Car Selling Price Analysis</h3>
+                    <p>Computed covariates with significant effect on used car selling price in R, fitted a regression model, and used exhaustive selection to compare reduced models. Found price, year, ownership count, seller type, and mileage as key drivers.</p>
+                    <div class="project-stack"><span>R</span><span>Regression</span><span>Stats</span></div>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="project-cover project-cover--university" aria-hidden="true">
+                    <img src="project-university.jpg" alt="" loading="lazy">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <span class="project-tag">Jan 2024 – May 2024</span>
+                        <a href="#" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+                    </div>
+                    <h3>International Student Proportion Model</h3>
+                    <p>Tested whether university-ranking variables could predict international student proportion using R and SQL. Applied forward selection to build an RMSE-reduced model, landing on four strong input variables.</p>
+                    <div class="project-stack"><span>R</span><span>SQL</span><span>Predictive Modeling</span></div>
+                </div>
+            </article>
+
+            <article class="project">
+                <div class="project-cover project-cover--books" aria-hidden="true">
+                    <img src="project-books.jpg" alt="" loading="lazy">
+                </div>
+                <div class="project-body">
+                    <div class="project-top">
+                        <span class="project-tag">Jan 2023 – Apr 2023</span>
+                        <a href="#" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+                    </div>
+                    <h3>Book List App</h3>
+                    <p>A user-friendly desktop app for tracking books read and books to read next, with the interface programmed end-to-end in Java.</p>
+                    <div class="project-stack"><span>Java</span><span>Desktop UI</span></div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section" id="skills">
+    <div class="section-inner">
+        <h2 class="section-title">Skills</h2>
+        <p class="skills-hint">Click a category to see what's inside.</p>
+
+        <div class="skills-orbs">
+            <button type="button" class="skill-orb" data-target="programming">Programming</button>
+            <button type="button" class="skill-orb" data-target="tools">Tools &amp; Platforms</button>
+            <button type="button" class="skill-orb" data-target="cloud">Cloud</button>
+            <button type="button" class="skill-orb" data-target="data">Data &amp; Analytics</button>
+            <button type="button" class="skill-orb" data-target="testing">Testing &amp; Systems</button>
+            <button type="button" class="skill-orb" data-target="interpersonal">Interpersonal</button>
+        </div>
+
+        <div class="skills-panel">
+            <div class="skills-panel-content" data-category="programming">
+                <div class="skill-tags">
+                    <span>Python</span><span>Java</span><span>C++</span><span>C</span><span>SQL</span><span>R</span><span>JavaScript</span><span>HTML</span><span>CSS</span>
+                </div>
+            </div>
+            <div class="skills-panel-content" data-category="tools">
+                <div class="skill-tags">
+                    <span>Git</span><span>Jira</span><span>Confluence</span><span>IntelliJ IDEA</span><span>Jupyter</span><span>RStudio</span><span>Linux</span><span>Windows</span><span>macOS</span>
+                </div>
+            </div>
+            <div class="skills-panel-content" data-category="cloud">
+                <div class="skill-tags">
+                    <span>Azure</span><span>AWS</span><span>IBM Cloud</span><span>Google Cloud</span><span>GitHub Actions</span><span>OpenShift (OCP)</span>
+                </div>
+            </div>
+            <div class="skills-panel-content" data-category="data">
+                <div class="skill-tags">
+                    <span>Oracle SQL</span><span>Apache Spark</span><span>TensorFlow</span><span>scikit-learn</span><span>Pandas</span><span>NumPy</span><span>MATLAB</span><span>Statistical Analysis</span><span>Machine Learning</span><span>Deep Learning</span><span>Hyperparameter Tuning</span><span>Data Visualization</span>
+                </div>
+            </div>
+            <div class="skills-panel-content" data-category="testing">
+                <div class="skill-tags">
+                    <span>Data Structures &amp; Algorithms</span><span>Software Testing</span><span>API Testing</span><span>Regression Testing</span><span>Database Validation</span><span>Batch Processing</span><span>Debugging</span>
+                </div>
+            </div>
+            <div class="skills-panel-content" data-category="interpersonal">
+                <div class="skill-tags">
+                    <span>Problem Solving</span><span>Critical Thinking</span><span>Teamwork</span><span>Time Management</span><span>Communication</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section section--contact" id="contact">
+    <div class="section-inner">
+        <h2 class="section-title">Let's talk</h2>
+        <p class="contact-lead">Open to software engineering, QA automation, and data-focused roles. Reach out — I reply fast.</p>
+        <div class="contact-links">
+            <a href="mailto:youremail@example.com" class="contact-link">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">youremail@example.com</span>
+            </a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">linkedin.com/in/yourprofile</span>
+            </a>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="contact-link">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/yourusername</span>
+            </a>
+        </div>
+        <p class="footer-note">Built from scratch — HTML, CSS &amp; JavaScript. Background rendered with a hand-written WebGL shader.</p>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
